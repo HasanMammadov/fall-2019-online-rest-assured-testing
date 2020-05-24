@@ -74,7 +74,7 @@ public class SpartansTest {
                 auth().basic("admin", "admin").
                 baseUri(BASE_URL).
                 when().
-                delete("/api/spartans/{id}", 792).prettyPeek().
+                delete("/api/spartans/{id}", 163).prettyPeek().
                 then().
                 statusCode(204);
 
